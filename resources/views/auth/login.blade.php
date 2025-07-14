@@ -12,7 +12,16 @@
                 display: flex; flex-direction: column; justify-content: center; align-items: center;
                 background-color: rgba(0, 0, 0, 0.4);">
         
-        <h1 style="color: white; text-shadow: 1px 1px 4px rgba(0,0,0,0.7); text-align: center;">Login</h1>
+<div class="login-container">
+    <form class="login-form" method="POST">
+        @csrf
+        <input type="email" name="email" placeholder="Email" required>
+        <input style="margin-top: 5%" type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+
        
     </div>
 </div>
