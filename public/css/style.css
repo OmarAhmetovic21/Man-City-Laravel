@@ -13,7 +13,17 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    margin-top: 3%;
 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a :hover {
+    text-decoration: underline;
 }
 
 /* Navbar */
@@ -104,4 +114,14 @@ nav ul li a:hover {
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.row{
+    text-align: center;
+}
+
+.row-about{
+    width: 60%; 
+    margin-top: 5%; 
+    margin: 0 auto
 }

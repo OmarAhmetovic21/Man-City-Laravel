@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Početna stranica</title>
+    <title>Manchester City</title>
 </head>
 <body style="text-align: center;">
     @include('partials.navbar')
@@ -18,11 +18,43 @@
     </div>
 </div>
 
-<div style="position: relative; width: 100%; height: 50vh;">
         
-        <h2>Manchester City highlights</h2>
+        <h2 style="margin-top: 2%;">Manchester City highlights</h2>
+
+        <div class="row"> 
+
+        <img style="margin-top: 5%" src="images/treble.jpg" alt="Treble">
+        <h3>Treble winners 2022/2023</h3>
+        </div>
+
+        <div class="row">
+
+        <img style="margin-top: 5%" src="images/9320.jpg" alt="9320">
+        <h3>93:20 and first Premier League title in 44 years</h3>
+
+        </div>
+
+        <div class="row">
+
+        <img style="margin-top: 5%" src="images/centurions.jpg" alt="Centurions">
+        <h3>Premier League winners 2017/2018 and 100 points in a Premier League season</h3>
+
+        </div>
+
+        <div class="row">
+
+        <img style="margin-top: 5%" src="images/3-row.jpg" alt="3 in a row">
+        <h3>Premier League winners 3 times in a row</h3>
+
+        </div>
+
+        <div class="row">
+
+        <img style="margin-top: 5%" src="images/4-row.jpg" alt="4 in a row">
+        <h3>Premier League winners 4 times in a row</h3>
+
+        </div>
     
-</div>
 
     @include('partials.footer')
 

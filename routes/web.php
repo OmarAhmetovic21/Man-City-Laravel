@@ -18,3 +18,8 @@ Route::get('/about', function () {
 Route::get('/fixtures', function () {
     return view('fixtures.index');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
+

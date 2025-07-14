@@ -13,6 +13,5 @@
     <ul>
         <li><a href="{{ url('/about') }}">About Us</a></li>
         <li><a href="{{ url('/fixtures') }}">Fixtures</a></li>
-        <li><a href="{{ url('/welcome') }}">Welcome</a></li>
     </ul>
 </nav>
